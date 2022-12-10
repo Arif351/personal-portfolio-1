@@ -1,0 +1,23 @@
+[
+    {
+        "id": "1",
+        "img": "./Projects-banner/Resale phones.jpg",
+        "title": "Cell Room",
+        "title2": "An old phone-resale platform.",
+        "short_details": "It is an old phone-selling platform where a seller can publish his phone's advertisement, sell his cellphone and get payments."
+    },
+    {
+        "id": "2",
+        "img": "./Projects-banner/accounting.jpg",
+        "title": "ACC Helper",
+        "title2": "A professional accounting-related service-review.",
+        "short_details": "Here an accountant provide some services and users can give review on it. Admin panel, buyer list, and seller list are also added in the private route."
+    },
+    {
+        "id": "3",
+        "img": "./Projects-banner/Courses.jpg",
+        "title": "EDUMA",
+        "title2": "An Education platform.",
+        "short_details": "It is an education platform which provide some attractive courses for beginner Learners."
+    }
+]
