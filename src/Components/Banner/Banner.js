@@ -1,5 +1,5 @@
 import React from 'react';
-import banner from '../../Assets/banner.png';
+import banner from '../../Assets/banner4.png';
 import './Banner.css'
 import { FaDownload } from 'react-icons/fa';
 import resume from '../../Assets/Resume/Ariful_Islam_Resume.pdf'
@@ -12,7 +12,7 @@ const Banner = () => {
             <div>
                 <img className='w-full bannerImg' src={banner} alt="" />
                 <div className='text-center'>
-                    <h2 className='typeWriter font-bold text-5xl text-white'>
+                    <h2 className='typeWriter font-bold text-5xl text-white '>
                         Hi, I AM ARIFUL ISLAM
                         {/* <Typewriter
                             options={{

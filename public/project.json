@@ -1,6 +1,5 @@
 [
     {
-        "id": "1",
         "img": "https://i.ibb.co/YXjSXpg/a1.jpg",
         "title": "Cell Room",
         "title2": "An old phone-resale platform.",
@@ -9,28 +8,26 @@
             "ss1": "https://i.ibb.co/JcYfh0b/cell-ss1.png",
             "ss2": "https://i.ibb.co/gTH4RL3/cell-ss2.png",
             "ss3": "https://i.ibb.co/wrZn1vw/cell-ss3.png",
-            "details": "",
+            "details": "It is an old phone resale platform where a seller can publish his phone's advertisement, sell his cell phone, and get payments. A private router was added here where only the admin could see all users, and all buyer lists. For login, added a react login form with Regex and a strong password.",
             "live_site": "https://resellphones-6529d.web.app/",
             "github_client": "https://github.com/Arif351/resale-phones-client"
         }
     },
     {
-        "id": "2",
         "img": "https://i.ibb.co/Jnw0v9m/a2.jpg",
         "title": "ACC Helper",
         "title2": "A professional accounting-related service-review.",
-        "short_details": "Here an accountant provide some services and users can give review on it. Admin panel, buyer list, and seller list are also added in the private route.",
+        "short_details": "Here an accountant provide some services and users can give review on it. Admin panel and buyer list are also added in the private route.",
         "see_more": {
             "ss1": "https://i.ibb.co/XSxKNpN/acc1.png",
             "ss2": "https://i.ibb.co/rwMpWwY/acc2.png",
             "ss3": "https://i.ibb.co/J5nZyTt/acc3.png",
-            "details": "",
+            "details": "It is a professional account-related service provider site where an accountant can provide his services as he wishes. A buyer or user can see details after clicking a view details button. A user can give a review after his selected service with a review form. A login and signup page has been added. Admin panel and buyer list are also added in the private route.",
             "live_site": "https://account-20cf4.web.app/",
             "github": "https://github.com/Arif351/review-client"
         }
     },
     {
-        "id": "3",
         "img": "https://i.ibb.co/L6P1QN5/Black-and-Pastelr.png",
         "title": "EDUMA",
         "title2": "An Education platform.",
@@ -39,7 +36,7 @@
             "ss1": "https://i.ibb.co/R2cFn4V/eduma1.png",
             "ss2": "https://i.ibb.co/YBvctf1/eduma2.png",
             "ss3": "https://i.ibb.co/2q1GWgV/eduma3.png",
-            "details": "",
+            "details": "This is a teaching service providing site where I have shown courses like UX/UI Design, Illustrator, Photo Editing, Video Editing, etc. Here is a course list. If anyone clicks on a course name he will see the course details. I also added a sign-up and log-in page with a form and also added the Google and GitHub log-in systems. If anyone wants to get a premium course, he will have to pass a private path which will enable after submitting or log-in the form.",
             "live_site": "https://assignment-10-62715.web.app",
             "github": "https://github.com/Arif351/eduma_client"
         }
