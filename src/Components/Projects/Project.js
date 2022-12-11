@@ -11,7 +11,7 @@ const Project = ({ project }) => {
                 <h4 className='card-title'>{title2}</h4>
                 <p>{short_details}</p>
                 <div className="card-actions justify-end">
-                    <button className="btn btn-primary">see more</button>
+                    <button className="btn btn-primary">EXPLORE MORE</button>
                 </div>
             </div>
         </div>

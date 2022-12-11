@@ -1,21 +1,22 @@
 import React from 'react';
 import { FaDownload } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import resume from '../../Assets/Resume/Ariful Islam Resume.pdf'
+import resume from '../../Assets/Resume/Ariful_Islam_Resume.pdf'
 
 const Navbar = () => {
 
     const menuList =
         <>
-            < li > <Link to='/'>Home</Link></li>
-            <li> <a href={resume} download={resume}>
+
+            < li className='text-white'> <Link to='/'>Home</Link></li>
+            <li className='text-white'> <a href={resume} download={resume}>
                 Resume <FaDownload className=''></FaDownload></a></li>
-            <li><Link to='/contact'>Contact Me</Link></li>
+            <li className='text-white'><Link to='/contact'>Contact Me</Link></li>
+
         </>
 
-
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-base-500 border-b-2 border-gray-800">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -25,7 +26,7 @@ const Navbar = () => {
                         {menuList}
                     </ul>
                 </div>
-                <Link to='/' className="btn btn-ghost normal-case text-xl">Ariful Islam</Link>
+                <Link to='/' className="btn btn-ghost normal-case text-xl text-white">Ariful Islam</Link>
             </div>
             <div className="navbar-end hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">

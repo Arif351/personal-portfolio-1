@@ -14,7 +14,7 @@ const Projects = () => {
             <div className='text-center mt-8'>
                 <h3 className="text-3xl text-white font-bold font-sans">MY PROJECTS</h3>
             </div>
-            <div className='grid lg:grid-cols-3 grid-cols-1 gap-4 lg:ml-10 mt-5 md:ml-12'>
+            <div className='grid lg:grid-cols-3 grid-cols-1 gap-4 lg:ml-10 my-7 md:ml-12'>
                 {
                     projects.map(project => <Project
                         key={project.id}
