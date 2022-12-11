@@ -17,10 +17,8 @@ const ProjectDetails2 = ({ project }) => {
             <div className="card-body">
                 <h2 className="card-title">{title}</h2>
                 <h4 className='card-title'>{title2}</h4>
-                <ul>
-                    <li>
-                        {sentence}
-                    </li>
+                <ul className='mx-12'>
+                    {sentence.map(sent => <li className='list-disc'>{sent}</li>)}
                 </ul>
             </div>
         </div>

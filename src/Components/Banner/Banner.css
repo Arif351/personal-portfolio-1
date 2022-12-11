@@ -3,6 +3,18 @@
 
 }
 
+.fonts {
+    font-family: 'Courier';
+}
+
+.fonts:hover {
+    background-color: rgb(196, 175, 255);
+}
+
+.hove:hover {
+    background-color: rgb(196, 175, 255);
+}
+
 .downlaod {
     position: absolute;
     top: 520px;
