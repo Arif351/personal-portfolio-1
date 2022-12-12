@@ -1,7 +1,7 @@
 import React from 'react';
 import banner from '../../Assets/r2.jpg';
 import me from '../../Assets/me.png';
-import video from '../../Assets/videos/video.mp4'
+// import video from '../../Assets/videos/video.mp4'
 import './Banner.css'
 import { FaDownload } from 'react-icons/fa';
 import resume from '../../Assets/Resume/Ariful_Islam_Resume.pdf'
@@ -13,7 +13,7 @@ const Banner = () => {
         <div>
             <div className=''>
                 <video className='brightness-50' autoPlay loop muted>
-                    <source src={video} type='video/mp4' />
+                    <source src="https://streamable.com/wmcyn4" type='video/mp4' />
                 </video>
                 {/* <img className='w-full bannerImg brightness-50' src={banner} alt="" /> */}
                 <div className='text-center'>
