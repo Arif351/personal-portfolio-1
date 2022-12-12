@@ -13,21 +13,21 @@ const ContactForm = () => {
                         </div>
                         <div className="form-control mb-4">
                             <label className="label">
-                                <span className="label-text">Email</span>
+                                <span className="label-text"></span>
                             </label>
                             <input name='email' type="email" placeholder="Email" className="input input-bordered" required />
                         </div>
                         <div className="form-control mb-4">
                             <label className="label">
-                                <span className="label-text">Phone</span>
+                                <span className="label-text"></span>
                             </label>
                             <input name='number' type="number" placeholder="Phone Number" className="input input-bordered" required />
                         </div>
                         <div className="form-control mb-4">
-                            <textarea name='message' className="textarea textarea-primary" placeholder="Message" required></textarea>
+                            <textarea name='message' className="textarea input-bordered" placeholder="Message" required></textarea>
                         </div>
-                        <div className="card-actions justify-end">
-                            <button type='submit' className="btn btn-primary">Send</button>
+                        <div className="card-actions">
+                            <button type='submit' className="btn btn-block btn-primary">Send</button>
                         </div>
                     </form>
                 </div>

@@ -7,17 +7,16 @@ const Navbar = () => {
 
     const menuList =
         <>
-
-            < li className='text-black font-semibold hove'> <Link to='/'>Home</Link></li>
-            <li className='text-black font-semibold hove'> <a href={resume} download={resume}>
+            < li className='text-white font-semibold'> <Link to='/'>Home</Link></li>
+            <li className='text-white font-semibold'> <a href={resume} download={resume}>
                 Resume <FaDownload className=''></FaDownload></a></li>
-            <li className='text-black font-semibold hove'><Link to='/about'>About</Link></li>
-            <li className='text-black font-semibold hove'><Link to='/contact'>Contact Me</Link></li>
+            <li className='text-white font-semibold'><Link to='/about'>About</Link></li>
+            <li className='text-white font-semibold'><Link to='/contact'>Contact Me</Link></li>
 
         </>
 
     return (
-        <div className="navbar bg-gray-400">
+        <div className="navbar">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -27,7 +26,7 @@ const Navbar = () => {
                         {menuList}
                     </ul>
                 </div>
-                <Link to='/about' className="btn btn-ghost font-bold fonts text-2xl text-black">Ariful Islam</Link>
+                <Link to='/about' className="btn font-bold fonts text-2xl text-white">Arif</Link>
             </div>
             <div className="navbar-end hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">

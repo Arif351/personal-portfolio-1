@@ -1,5 +1,7 @@
 import React from 'react';
-import banner from '../../Assets/banner4.png';
+import banner from '../../Assets/r2.jpg';
+import me from '../../Assets/me.png';
+import video from '../../Assets/videos/video.mp4'
 import './Banner.css'
 import { FaDownload } from 'react-icons/fa';
 import resume from '../../Assets/Resume/Ariful_Islam_Resume.pdf'
@@ -9,10 +11,18 @@ const Banner = () => {
 
     return (
         <div>
-            <div>
-                <img className='w-full bannerImg' src={banner} alt="" />
+            <div className=''>
+                <video className='brightness-50' autoPlay loop muted>
+                    <source src={video} type='video/mp4' />
+                </video>
+                {/* <img className='w-full bannerImg brightness-50' src={banner} alt="" /> */}
                 <div className='text-center'>
-                    <h2 className='typeWriter font-bold text-5xl text-white '>
+                    <div className="avatar avtr">
+                        <div className="w-36 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                            <img src={me} alt="" />
+                        </div>
+                    </div>
+                    <h2 className='typeWriter font-bold fontg text-5xl text-white '>
                         Hi, I AM ARIFUL ISLAM
                         {/* <Typewriter
                             options={{
@@ -32,7 +42,6 @@ const Banner = () => {
                         /> */}
                     </h4>
                 </div>
-
                 <a className='downlaod' href={resume} download={resume}>
                     <button className="btn btn-outline btn-info">
                         Download Resume <FaDownload className='ml-3'></FaDownload> </button></a>

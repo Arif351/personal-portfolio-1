@@ -22,7 +22,7 @@ const Projects = () => {
     return (
         <div>
             <div className='text-center mt-8'>
-                <h3 className="text-3xl font-bold text-black font-sans">MY PROJECTS</h3>
+                <h3 className="text-3xl font-bold text-white font-sans">MY PROJECTS</h3>
             </div>
             <div className='grid lg:grid-cols-3 grid-cols-1 gap-4 lg:ml-10 my-7 md:ml-12'>
                 {

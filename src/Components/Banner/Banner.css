@@ -3,16 +3,24 @@
 
 }
 
+.fontg {
+    font-family: 'Lucida Sans';
+}
+
 .fonts {
     font-family: 'Courier';
 }
 
-.fonts:hover {
-    background-color: rgb(196, 175, 255);
-}
 
 .hove:hover {
     background-color: rgb(196, 175, 255);
+}
+
+.avtr {
+    position: absolute;
+    top: 220px;
+    left: 620px;
+
 }
 
 .downlaod {

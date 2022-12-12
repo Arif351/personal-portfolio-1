@@ -18,7 +18,7 @@ const ProjectDetails = () => {
     return (
         <div>
             <div className='text-center mt-8'>
-                <h3 className="text-3xl text-black font-bold font-sans">MY PROJECTS</h3>
+                <h3 className="text-3xl text-white font-bold font-sans">MY PROJECTS</h3>
             </div>
             <div className=''>
                 {
