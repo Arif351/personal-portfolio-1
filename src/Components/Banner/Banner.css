@@ -55,18 +55,27 @@
     }
 }
 
-@media only screen and (max-width:992px) {
+/* @media only screen and (max-width:992px) {
     .hireMe {
         position: absolute;
         top: 180px;
-        right: 120px;
+        right: 80px;
     }
-}
+} */
 
 @media only screen and (max-width:992px) {
     .downlaod {
         position: absolute;
-        top: 120px;
+        top: 200px;
         left: 100px;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .imgsm {
+        position: absolute;
+        top: 90px;
+        left: 170px;
+        width: 80px;
     }
 }

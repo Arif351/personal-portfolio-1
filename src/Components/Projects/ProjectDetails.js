@@ -9,7 +9,7 @@ const ProjectDetails = () => {
     const { data: projectDetails = [] } = useQuery({
         queryKey: ['projects'],
         queryFn: async () => {
-            const res = await fetch(`http://localhost:5000/projectDetails/${params.id}`)
+            const res = await fetch(`https://portfolio-server-pink.vercel.app/projectDetails/${params.id}`)
             const data = await res.json()
             console.log(data);
             return data;

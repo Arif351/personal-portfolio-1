@@ -12,12 +12,13 @@ const Banner = () => {
     return (
         <div>
             <div className=''>
-                <video className='brightness-50' autoPlay loop muted>
+                {/* <iframe src="https://www.veed.io/embed/95888357-fc7c-4caf-9e3c-693ffbbec092" className='w-full' frameborder="0" title="video.mp4" webkitallowfullscreen mozallowfullscreen allowfullscreen autoPlay loop muted></iframe> */}
+                {/* <video className='brightness-50' autoPlay loop muted>
                     <source src="https://streamable.com/wmcyn4" type='video/mp4' />
-                </video>
-                {/* <img className='w-full bannerImg brightness-50' src={banner} alt="" /> */}
+                </video> */}
+                <img className='w-full bannerImg brightness-50' src={banner} alt="" />
                 <div className='text-center'>
-                    <div className="avatar avtr">
+                    <div className="avatar avtr imgsm">
                         <div className="w-36 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
                             <img src={me} alt="" />
                         </div>
@@ -42,12 +43,14 @@ const Banner = () => {
                         /> */}
                     </h4>
                 </div>
-                <a className='downlaod' href={resume} download={resume}>
-                    <button className="btn btn-outline btn-info">
-                        Download Resume <FaDownload className='ml-3'></FaDownload> </button></a>
-                <Link to='/contact' className='hireMe' >
-                    <button className="btn btn-outline btn-info">
-                        Hire Me </button></Link>
+                <div className=''>
+                    <a className='downlaod' href={resume} download={resume}>
+                        <button className="btn btn-outline btn-info">
+                            Download Resume <FaDownload className='ml-3'></FaDownload> </button></a>
+                    <Link to='/contact' className=' ' >
+                        <button className="btn btn-outline btn-info hireMe hidden lg:block" >
+                            Hire Me </button></Link>
+                </div>
             </div>
         </div >
     );
